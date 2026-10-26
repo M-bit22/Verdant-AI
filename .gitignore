@@ -1,0 +1,11 @@
+@'
+.streamlit/secrets.toml
+verdant_history/
+.verdant_indexes/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+'@ | Set-Content .gitignore
+.env
